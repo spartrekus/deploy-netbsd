@@ -4,6 +4,9 @@ disklabel wd0
 fdisk wd0 
 disklabel sd1
 
+mkdir /usr/local
+mkdir /usr/local/bin/
+
 
 ifconfig urtwn0 up 
 ifconfig urtwn0 list scan
@@ -24,6 +27,11 @@ echo use bios console
 echo min ins
 echo install image media
 echo progress -zf /i386/... 
+
+
+echo go to custom to get the min, with man and comp with gcc
+echo you will need comp.tgz to compile with gcc 
+ 
 
 echo configure the network 
 
