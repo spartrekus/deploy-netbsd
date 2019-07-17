@@ -1,4 +1,4 @@
-# netbsd unix bsd 
+# NetBSD Unix, BSD System 
 user third party for installation and settings
 1. get img.gz to make usb media, with zcat netbsd.img.gz > /dev/XX
 2. boot
