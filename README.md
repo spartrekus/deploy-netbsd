@@ -10,3 +10,12 @@ user third party for installation and settings
 8. add users and pkgin (after network). 
 9. Reboot
 10. BSD Runs. 
+
+
+Alternative Method
+An alternative setup method saves space on the Stick at the expense of sysinst automation and is therefore more advanced. This method skips the sysinst tool by copying the sets and the normal GENERIC Kernel instead of the install-Kernel.
+
+Extract the sets from the harddisk directly on to the Memory stick (/mnt):
+> tar xvfzp sets.tgz -C /mnt 
+Extract the Kernel to the target root:
+> tar xvfzp GENERIC-kernel.tgz -C /mnt
