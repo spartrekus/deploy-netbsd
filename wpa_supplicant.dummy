@@ -1,0 +1,20 @@
+
+ctrl_interface=/var/run/wpa_supplicant
+eapol_version=2
+ap_scan=1
+fast_reauth=1
+
+network={
+ssid="myrouterdsl"
+scan_ssid=0
+psk="mypskwpakey"
+priority=5
+}
+network={
+	priority=0
+	key_mgmt=NONE
+}
+
+
+
+
