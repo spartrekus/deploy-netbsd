@@ -34,7 +34,8 @@ Extract the Kernel to the target root:
 > for tgz in *.tgz ; do tar xvpfz $tgz -C /mnt ; done
 
 4. Set the root password.
-5. reboot
-6. Copy the wpa andconfigure your machine
-7. Run BSD.
+5. Make the /boot
+6. reboot
+7. Copy the wpa andconfigure your machine
+8. Run BSD.
 
