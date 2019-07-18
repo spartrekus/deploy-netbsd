@@ -37,5 +37,7 @@ Extract the Kernel to the target root:
 5. Make the /boot
 6. reboot
 7. Copy the wpa andconfigure your machine
-8. Run BSD.
+8. Run BSD, boot normally, useradd -m -G wheel username
+
+
 
