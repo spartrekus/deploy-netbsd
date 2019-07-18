@@ -24,17 +24,17 @@ Extract the Kernel to the target root:
 > tar xvfzp GENERIC-kernel.tgz -C /mnt
 
 # Hand Method
-1.Partition the disk with newfs, fdisk and disklabel
-2.Install the boot loader (netbsd)
+1. Partition the disk with newfs, fdisk and disklabel
+2. Install the boot loader (netbsd)
 
 > cd i386 
 
-find the file sets
+3. find the file sets
 
 > for tgz in *.tgz ; do tar xvpfz $tgz -C /mnt ; done
 
-Set the root password.
-
-reboot
-Copy the wpa andconfigure your machine
+4. Set the root password.
+5. reboot
+6. Copy the wpa andconfigure your machine
+7. Run BSD.
 
